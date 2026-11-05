@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+   
+</head>
+<body>
+
+  <main >
+    <h1>Formularios ¿ Inputs</h1>
+
+    <form action="">
+
+            <label for="input1">Nombre y Apellidos</label>
+        <input id="input1" placeholder="digite aqui"/>
+
+
+        <label>
+                Input solo lectura
+            <input readonly value="Copia este codigo" placeholder="Input de solo lectura"  type="text" />
+
+        </label>
+
+        <label>
+            Input(desactivado)
+            <input disabled placeholder="Input desactivado" type="text"/>
+        </label>
+
+         <label>
+            Input(Number)
+            <input placeholder="edad ej 18" type="number" min="18" max="90"/>
+        </label>
+
+        <label>
+            Input(email)
+            <input placeholder="Dijite correo" type="email" required/>
+        </label>
+
+        <label>
+            Input(rango)
+            <input placeholder="Dijite correo" type="range" min="0" max="100"/>
+        </label>
+
+        <label>
+            Input(fecha)
+            <input placeholder="Dijite correo" type="week"/>
+        </label>
+
+         <label>
+            Input(telefomo)
+            <input placeholder="Dijite correo" type="tel"/>
+        </label>
+
+        <label>
+            Input(URL)
+            <input placeholder="Dijite correo" type="url"/>
+        </label>
+
+         <label>
+            Input(PassWord)
+            <input placeholder="Dijite correo" type="password"/>
+        </label>
+
+        
+
+        <label>
+            Input(Archivo - Selecionar multiples arcchivo)
+            <input placeholder="Dijite correo" type="file" multiple/>
+        </label>
+
+        <label>
+            Input(Archivo - Selecionar multiples arcchivo)
+            <input type="file" multiple/>
+        </label>
+
+       <input type="hidden" value="datos occultos" />
+
+       
+       <input type="button" value="hola soy boton" /> 
+       <button>Hola otra vez</button>
+
+       <input type="submit" value="guardar" /> 
+
+    </form>
+
+    <form>
+
+        <h2>Input tipo fecha</h2>
+        <label>
+
+            Input tipo feccha
+            <input type="date">
+        </label>
+         <label>
+
+            Input tipo feccha y hora
+            <input type="datetime-local">
+        </label>
+
+         <label>
+
+            Input tipo hora
+            <input type="time">
+        </label>
+         <label>
+
+            Input tipo semana
+            <input type="week">
+        </label>
+         <label>
+
+            Input tipo mes
+            <input type="month">
+        </label>
+
+        <input type="submit" value="guardar">
+
+    </form>
+
+    <form >
+        <h2>text AREA</h2>
+        <label>
+            <textarea placeholder="escribe descripcion" rows="6" cols="4">hola a todos</textarea>
+        </label>
+    </form>
+
+
+  </main>
+
+    
+</body>
+</html>
